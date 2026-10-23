@@ -12,11 +12,6 @@ bright content (white pages, light themes) lowers the brightness, dark content r
 Want to look at the interface without touching your real screen? `python app.py --demo` uses a fake
 screen and fake brightness and works on any OS.
 
-## Make a single .exe to share
-
-Double-click **build.bat**. When it finishes, `dist\AdaptiveBrightness.exe` is a standalone program
-that needs no Python on the other person's PC.
-
 ## How it works
 
 Four times a second the app grabs a frame of the chosen display in memory (nothing is written to disk),
