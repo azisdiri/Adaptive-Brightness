@@ -1,0 +1,5 @@
+mss>=9.0
+numpy>=1.24
+screen-brightness-control>=0.20
+pystray>=0.19
+Pillow>=9.0
