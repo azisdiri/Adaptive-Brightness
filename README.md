@@ -3,15 +3,6 @@
 A small Windows tray app that watches what is on your screen and sets the laptop brightness to match:
 bright content (white pages, light themes) lowers the brightness, dark content raises it.
 
-## Run it
-
-1. Install Python 3.10+ from python.org (tick "Add python.exe to PATH").
-2. In this folder: `pip install -r requirements.txt`
-3. `python app.py`  (add `--minimized` to start hidden in the tray)
-
-Want to look at the interface without touching your real screen? `python app.py --demo` uses a fake
-screen and fake brightness and works on any OS.
-
 ## How it works
 
 Four times a second the app grabs a frame of the chosen display in memory (nothing is written to disk),
